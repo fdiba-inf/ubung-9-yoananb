@@ -1,4 +1,3 @@
-  
 package exercise9;
 
 public class EllipseDemo {

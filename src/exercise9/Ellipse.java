@@ -55,10 +55,10 @@ public class Ellipse {
    }
   
   public boolean equals(Ellipse otherEllipse){
-    boolean sameHeight = Utils.equals(a,otherEllipse.a);
-    boolean sameWidth = Utils.equals(b,otherEllipse.b);
-    boolean sameHeightReversed = Utils.equals(a,otherEllipse.b);
-    boolean sameWidthReversed = Utils.equals(b,otherEllipse.a);
+    boolean sameHeight = Utils.equals(this.a,otherEllipse.a);
+    boolean sameWidth = Utils.equals(this.b,otherEllipse.b);
+    boolean sameHeightReversed = Utils.equals(this.a,otherEllipse.b);
+    boolean sameWidthReversed = Utils.equals(this.b,otherEllipse.a);
 
     return (sameHeight && sameWidth) || (sameHeightReversed && sameWidthReversed);
 
